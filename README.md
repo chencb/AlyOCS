@@ -9,9 +9,9 @@ Aliyun Open Cache Service
 
 ## Options
 
-  - 'host' 
-  - 'ocsKey'
-  - 'ocsSecret'
+  - `host` 
+  - `ocsKey`
+  - `ocsSecret`
 
 ## Example
 
