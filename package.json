@@ -1,7 +1,7 @@
 {
   "name": "alyocs",
   "version": "0.0.1",
-  "description": "Aliyun Open Cache Service",
+  "description": "Connect to Aliyun Open Cache Service",
   "main": "index.js",
   "scripts": {
     "test": "npm install alyocs"
