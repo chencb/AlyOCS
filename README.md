@@ -16,7 +16,9 @@ Connect to Aliyun Open Cache Service
 ## Example
 
   var session = require("express-session");
+  
   var AlyOCS  = require("AlyOCS")(session);
+  
   app.use(session(
     {
       store: new AlyOCS(options), 
