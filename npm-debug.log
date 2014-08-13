@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '--tag', '0.0.2' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/chenchuanbin/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz
+12 verbose folder .
+13 info prepublish alyocs@0.0.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/chenchuanbin/.npm/1f1177db-tar.lock
+16 silly lockFile 18adcf19-6914-0-49797678436152637-tmp-tgz tar:///var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz
+17 verbose lock tar:///var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz /Users/chenchuanbin/.npm/18adcf19-6914-0-49797678436152637-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 18adcf19-6914-0-49797678436152637-tmp-tgz tar:///var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz
+21 silly lockFile 18adcf19-6914-0-49797678436152637-tmp-tgz tar:///var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz
+22 verbose tar unpack /var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz
+23 silly lockFile e17d7ef0-huanbin-npm-alyocs-0-0-2-package tar:///Users/chenchuanbin/.npm/alyocs/0.0.2/package
+24 verbose lock tar:///Users/chenchuanbin/.npm/alyocs/0.0.2/package /Users/chenchuanbin/.npm/e17d7ef0-huanbin-npm-alyocs-0-0-2-package.lock
+25 silly lockFile 18adcf19-6914-0-49797678436152637-tmp-tgz tar:///var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz
+26 verbose lock tar:///var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz /Users/chenchuanbin/.npm/18adcf19-6914-0-49797678436152637-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry .idea/.name
+32 silly gunzTarPerm extractEntry .idea/AlyOCS.iml
+33 silly gunzTarPerm extractEntry .idea/encodings.xml
+34 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+35 silly gunzTarPerm extractEntry .idea/misc.xml
+36 silly gunzTarPerm extractEntry .idea/modules.xml
+37 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+38 silly gunzTarPerm extractEntry .idea/vcs.xml
+39 silly gunzTarPerm extractEntry .idea/workspace.xml
+40 silly gunzTarPerm extractEntry .travis.yml
+41 silly gunzTarPerm extractEntry lib/AlyOCS.js
+42 silly lockFile e17d7ef0-huanbin-npm-alyocs-0-0-2-package tar:///Users/chenchuanbin/.npm/alyocs/0.0.2/package
+43 silly lockFile e17d7ef0-huanbin-npm-alyocs-0-0-2-package tar:///Users/chenchuanbin/.npm/alyocs/0.0.2/package
+44 silly lockFile 18adcf19-6914-0-49797678436152637-tmp-tgz tar:///var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz
+45 silly lockFile 18adcf19-6914-0-49797678436152637-tmp-tgz tar:///var/folders/q6/nlm9pbkd6jvggh7sphctp3zh0000gn/T/npm-77188-2QPkx-jB/1407910326914-0.49797678436152637/tmp.tgz
+46 silly lockFile 3a52ce78- .
+47 silly lockFile 3a52ce78- .
+48 silly publish { name: 'alyocs',
+48 silly publish   version: '0.0.2',
+48 silly publish   description: 'Connect to Aliyun Open Cache Service',
+48 silly publish   main: 'index.js',
+48 silly publish   scripts: { test: 'npm install alyocs' },
+48 silly publish   repository: { type: 'git', url: 'https://github.com/chencb/AlyOCS.git' },
+48 silly publish   keywords: [ 'OCS' ],
+48 silly publish   author: { name: 'ccb' },
+48 silly publish   license: 'ISC',
+48 silly publish   bugs: { url: 'https://github.com/chencb/AlyOCS/issues' },
+48 silly publish   homepage: 'https://github.com/chencb/AlyOCS',
+48 silly publish   readme: 'AlyOCS\n======\n\nConnect to Aliyun Open Cache Service\n\n## Installation\n\n    $ npm install AlyOCS\n\n## Options\n\n  - `host` aliyun innerip \n  - `ocsKey` account\n  - `ocsSecret` password\n\n## Example\n\n  var session = require("express-session");\n  \n  var AlyOCS  = require("AlyOCS")(session);\n  \n  app.use(session(\n    {\n      store: new AlyOCS(options), \n      secret: settings.cookie_secret\n    })\n  );\n',
+48 silly publish   readmeFilename: 'README.md',
+48 silly publish   _id: 'alyocs@0.0.2',
+48 silly publish   _shasum: 'a232e9e4097441b77cb41b65701ae1d330055d7c',
+48 silly publish   _from: '.' }
+49 verbose url raw alyocs
+50 verbose url resolving [ 'https://registry.npmjs.org/', './alyocs' ]
+51 verbose url resolved https://registry.npmjs.org/alyocs
+52 info trying registry request attempt 1 at 14:12:07
+53 http PUT https://registry.npmjs.org/alyocs
+54 http 403 https://registry.npmjs.org/alyocs
+55 verbose headers { date: 'Wed, 13 Aug 2014 06:12:10 GMT',
+55 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+55 verbose headers   'content-type': 'application/json',
+55 verbose headers   'cache-control': 'max-age=60',
+55 verbose headers   'content-length': '2373',
+55 verbose headers   'accept-ranges': 'bytes',
+55 verbose headers   via: '1.1 varnish',
+55 verbose headers   'x-served-by': 'cache-ty66-TYO',
+55 verbose headers   'x-cache': 'MISS',
+55 verbose headers   'x-cache-hits': '0',
+55 verbose headers   'x-timer': 'S1407910329.994861,VS0,VE449',
+55 verbose headers   'keep-alive': 'timeout=10, max=50',
+55 verbose headers   connection: 'Keep-Alive' }
+56 error publish Failed PUT 403
+57 error Error: forbidden cannot modify pre-existing version: 0.0.2
+57 error old={"name":"alyocs","version":"0.0.2","description":"Connect to Aliyun Open Cache Service","main":"index.js","scripts":{"test":"npm install alyocs"},"repository":{"type":"git","url":"https://github.com/chencb/AlyOCS.git"},"keywords":["OCS"],"author":{"name":"ccb"},"license":"ISC","bugs":{"url":"https://github.com/chencb/AlyOCS/issues"},"homepage":"https://github.com/chencb/AlyOCS","_id":"alyocs@0.0.2","_shasum":"9842df86e91f5423f0fab8094ddcf5af1f6164b0","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"chencb","email":"445365969@qq.com"},"maintainers":[{"name":"chencb","email":"445365969@qq.com"}],"dist":{"shasum":"9842df86e91f5423f0fab8094ddcf5af1f6164b0","tarball":"http://registry.npmjs.org/alyocs/-/alyocs-0.0.2.tgz"}}
+57 error new={"name":"alyocs","version":"0.0.2","description":"Connect to Aliyun Open Cache Service","main":"index.js","scripts":{"test":"npm install alyocs"},"repository":{"type":"git","url":"https://github.com/chencb/AlyOCS.git"},"keywords":["OCS"],"author":{"name":"ccb"},"license":"ISC","bugs":{"url":"https://github.com/chencb/AlyOCS/issues"},"homepage":"https://github.com/chencb/AlyOCS","readme":"AlyOCS\u000a======\u000a\u000aConnect to Aliyun Open Cache Service\u000a\u000a## Installation\u000a\u000a    $ npm install AlyOCS\u000a\u000a## Options\u000a\u000a  - `host` aliyun innerip \u000a  - `ocsKey` account\u000a  - `ocsSecret` password\u000a\u000a## Example\u000a\u000a  var session = require(\"express-session\");\u000a  \u000a  var AlyOCS  = require(\"AlyOCS\")(session);\u000a  \u000a  app.use(session(\u000a    {\u000a      store: new AlyOCS(options), \u000a      secret: settings.cookie_secret\u000a    })\u000a  );\u000a","readmeFilename":"README.md","_id":"alyocs@0.0.2","_shasum":"a232e9e4097441b77cb41b65701ae1d330055d7c","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"chencb","email":"445365969@qq.com"},"maintainers":[{"name":"chencb","email":"445365969@qq.com"}],"dist":{"shasum":"a232e9e4097441b77cb41b65701ae1d330055d7c","tarball":"http://registry.npmjs.org/alyocs/-/alyocs-0.0.2.tgz"}}: alyocs
+57 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+57 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+57 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+57 error     at Request.EventEmitter.emit (events.js:98:17)
+57 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+57 error     at Request.EventEmitter.emit (events.js:117:20)
+57 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+57 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+57 error     at _stream_readable.js:919:16
+57 error     at process._tickCallback (node.js:419:13)
+58 error If you need help, you may report this *entire* log,
+58 error including the npm and node versions, at:
+58 error     <http://github.com/npm/npm/issues>
+59 error System Darwin 13.3.0
+60 error command "node" "/usr/local/bin/npm" "publish" "--tag" "0.0.2"
+61 error cwd /Users/chenchuanbin/Dev/AlyOCS
+62 error node -v v0.10.28
+63 error npm -v 1.4.9
+64 verbose exit [ 1, true ]

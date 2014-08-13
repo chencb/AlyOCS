@@ -1,6 +1,6 @@
 {
   "name": "alyocs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Connect to Aliyun Open Cache Service",
   "main": "index.js",
   "scripts": {
