@@ -1,14 +1,14 @@
 {
-  "name": "AlyOCS",
-  "version": "0.0.0",
+  "name": "alyocs",
+  "version": "0.0.1",
   "description": "Aliyun Open Cache Service",
   "main": "index.js",
   "scripts": {
-    "test": "npm install AlyOCS"
+    "test": "npm install alyocs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccb445365969/AlyOCS.git"
+    "url": "https://github.com/chencb/AlyOCS.git"
   },
   "keywords": [
     "OCS"
@@ -16,7 +16,7 @@
   "author": "ccb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ccb445365969/AlyOCS/issues"
+    "url": "https://github.com/chencb/AlyOCS/issues"
   },
-  "homepage": "https://github.com/ccb445365969/AlyOCS"
+  "homepage": "https://github.com/chencb/AlyOCS"
 }
