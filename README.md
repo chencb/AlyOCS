@@ -1,7 +1,7 @@
 AlyOCS
 ======
 
-Aliyun Open Cache Service
+Connect to Aliyun Open Cache Service
 
 ## Installation
 
@@ -9,9 +9,9 @@ Aliyun Open Cache Service
 
 ## Options
 
-  - `host` 
-  - `ocsKey`
-  - `ocsSecret`
+  - `host` aliyun innerip 
+  - `ocsKey` account
+  - `ocsSecret` password
 
 ## Example
 
