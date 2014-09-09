@@ -1,6 +1,6 @@
 {
   "name": "alyocs",
-  "version": "0.0.3",
+  "version": "0.0.9",
   "description": "Connect to Aliyun Open Cache Service",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chencb/AlyOCS/issues"
+  },
+  "dependencies": {
+    "aliyun-sdk": "^0.4.6"
   },
   "homepage": "https://github.com/chencb/AlyOCS"
 }
